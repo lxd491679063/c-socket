@@ -2,15 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="NetData">
-      <HintPath>..\..\LIb\netcoreapp2.1\NetData.dll</HintPath>
-    </Reference>
-    <Reference Include="ServerCommon">
-      <HintPath>..\..\LIb\netcoreapp2.1\ServerCommon.dll</HintPath>
+    <Reference Include="GameService">
+      <HintPath>..\..\LIb\netcoreapp3.1\GameService.dll</HintPath>
     </Reference>
   </ItemGroup>
 
